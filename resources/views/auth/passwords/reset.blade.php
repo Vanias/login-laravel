@@ -9,7 +9,11 @@
                 <div class="card bg-secondary shadow border-0">
                     <div class="card-body px-lg-5 py-lg-5">
                     <x-auth-validation-errors class="mb-4" :errors="$errors" />
-
+                        <div class="text-muted text-center mt-2 mb-3">
+                            <div class="logo">
+                                <img alt="Image placeholder" src="{{ asset('argon') }}/img/brand/blue.png">
+                            </div>
+                        </div>
                         <div class="text-center text-muted mb-4">
                             <small>{{ __('Reset Password') }}</small>
                         </div>

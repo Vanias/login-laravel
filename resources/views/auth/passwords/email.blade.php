@@ -8,6 +8,11 @@
             <div class="col-lg-5 col-md-7">
                 <div class="card bg-secondary shadow border-0">
                     <div class="card-body px-lg-5 py-lg-5">
+                        <div class="text-muted text-center mt-2 mb-3">
+                            <div class="logo">
+                                <img alt="Image placeholder" src="{{ asset('argon') }}/img/brand/blue.png">
+                            </div>
+                        </div>
                         <div class="text-center text-muted mb-4">
                             <small>{{ __('Reset password') }}</small>
                         </div>
@@ -24,7 +29,7 @@
                             </div>
                         @endif
 
-                        <form role="form" method="POST" action="{{ route('password.email') }}">
+                        <form role="form" method="POST" action="{{ route('password.emails') }}">
                             @csrf
 
                             <div class="form-group{{ $errors->has('email') ? ' has-danger' : '' }} mb-3">
