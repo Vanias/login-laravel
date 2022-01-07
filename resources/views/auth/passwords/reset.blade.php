@@ -11,11 +11,11 @@
                     <x-auth-validation-errors class="mb-4" :errors="$errors" />
                         <div class="text-muted text-center mt-2 mb-3">
                             <div class="logo">
-                                <img alt="Image placeholder" src="{{ asset('argon') }}/img/brand/blue.png">
+                                <img alt="Image placeholder" src="{{ asset('argon') }}/img/brand/blue.png" class="logo-central">
                             </div>
                         </div>
                         <div class="text-center text-muted mb-4">
-                            <small>{{ __('Reset Password') }}</small>
+                            <small>{{ __('Redefinir senha') }}</small>
                         </div>
                         <form role="form" method="POST" action="{{ route('password.update') }}">
                             @csrf

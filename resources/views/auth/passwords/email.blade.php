@@ -10,11 +10,11 @@
                     <div class="card-body px-lg-5 py-lg-5">
                         <div class="text-muted text-center mt-2 mb-3">
                             <div class="logo">
-                                <img alt="Image placeholder" src="{{ asset('argon') }}/img/brand/blue.png">
+                                <img alt="Image placeholder" src="{{ asset('argon') }}/img/brand/blue.png" class="logo-central">
                             </div>
                         </div>
                         <div class="text-center text-muted mb-4">
-                            <small>{{ __('Reset password') }}</small>
+                            <small>{{ __('Redefinir senha') }}</small>
                         </div>
 
                         @if (session('status'))

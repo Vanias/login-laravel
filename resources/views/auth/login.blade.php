@@ -9,8 +9,8 @@
                 <div class="card  shadow border-0">
                     <div class="card-header bg-transparent pb-5">
                         <div class="text-muted text-center mt-2 mb-3">
-                            <div class="logo">
-                                <img alt="Image placeholder" src="{{ asset('argon') }}/img/brand/blue.png">
+                            <div class=" navbar-brand pt-0">
+                                <img alt="Image placeholder" src="{{ asset('argon') }}/img/brand/blue.png" class="navbar-brand-img logo-central">
                             </div>
                         </div>
                         
@@ -68,7 +68,7 @@
                     <div class="col-6">
                         @if (Route::has('password.request'))
                             <a href="{{ route('password.request') }}" class="text-light">
-                                <small>{{ __('Forgot password?') }}</small>
+                                <small>{{ __('Esqueci minha senha!') }}</small>
                             </a>
                         @endif
                     </div>
