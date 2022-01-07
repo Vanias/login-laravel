@@ -79,57 +79,57 @@
             <!-- Navigation -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link show-modal" href="#">
                         <i class="ni ni-tv-2 text-primary"></i> {{ __('Dashboard') }}
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link show-modal" href="#">
                         <i class="ni ni-support-16 text-primary"></i> {{ __('BI de CRM') }}
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link show-modal" href="#">
                         <i class="ni ni-building text-primary"></i> {{ __('Construtor de Meta') }}
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link show-modal" href="#">
                         <i class="ni ni-chart-pie-35 text-primary"></i> {{ __('BI de Vendas') }}
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link show-modal" href="#">
                         <i class="ni ni-cart text-primary"></i> {{ __('Visão do Varejo') }}
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link show-modal" href="#">
                         <i class="ni ni-cloud-upload-96 text-primary"></i> {{ __('Extrator de Dados') }}
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link show-modal" href="#">
                         <i class="ni ni-mobile-button text-primary"></i> {{ __('Execução de PDV') }}
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link show-modal" href="#">
                         <i class="ni ni-trophy text-primary"></i> {{ __('Campanhas de Incentivo') }}
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link show-modal" href="#">
                         <i class="ni ni-ruler-pencil text-primary"></i> {{ __('Calculador de Prêmio') }}
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link show-modal" href="#">
                         <i class="ni ni-collection text-primary"></i> {{ __('Simulador de Prêmio') }}
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link show-modal" href="#">
                         <i class="ni ni-chart-bar-32 text-primary"></i> {{ __('BI de Incentivo') }}
                     </a>
                 </li>
