@@ -6,9 +6,13 @@
     <div class="container mt--8 pb-5">
         <div class="row justify-content-center">
             <div class="col-lg-5 col-md-7">
-                <div class="card bg-secondary shadow border-0">
+                <div class="card  shadow border-0">
                     <div class="card-header bg-transparent pb-5">
-                        <div class="text-muted text-center mt-2 mb-3"><small>{{ __('Sign in') }}</small></div>
+                        <div class="text-muted text-center mt-2 mb-3">
+                            <div class="logo">
+                                <img alt="Image placeholder" src="{{ asset('argon') }}/img/brand/blue.png">
+                            </div>
+                        </div>
                         
                     </div>
                     <div class="card-body px-lg-5 py-lg-5">

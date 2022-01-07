@@ -6,10 +6,7 @@
     <div class="container-fluid mt--7">
         <div class="row">
             <div class="col-xl-8 mb-5 mb-xl-0">
-                <div class="card bg-gradient-default shadow">
-                    
-                    
-                </div>
+                
             </div>
             <div class="col-xl-4">
                 
@@ -23,6 +20,7 @@
 
             </div>
         </div>
+    </div>
         <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
@@ -44,9 +42,7 @@
       
     </div>
   </div>
-    </div>
-        @include('layouts.footers.auth')
-    </div>
+    
 @endsection
 
 @push('js')
