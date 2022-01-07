@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Redirectt;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('dashboard');
-})->middleware(['auth'])->name('dash');
+})->middleware(['auth'])->name('dash');*/
+
+Route::get('/', function(){ 
+    return Redirect::to('/login', 301); 
+});
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
