@@ -22,6 +22,9 @@ Route::get('/', function(){
     return Redirect::to('/login', 301); 
 });
 
+Route::get('/logout', function(){ 
+    return Redirect::to('/login', 301); 
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
